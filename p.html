@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #f4f4f4;
+            overflow-x: hidden;
+        }
+        nav {
+            padding: 1rem 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+
+      
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(141, 139, 139, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        section {
+            margin: 20px 0;
+        }
+        .navbar li {
+            margin: 0 20px;
+        }
+
+        .navbar a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #e1991c;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #ff6f61;
+            border-bottom: 2px solid #ff6f61;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        ul li {
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        .ul li:hover{
+            background: #1367a7;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(154, 28, 227, 0.5);
+            border-color:rgba(193, 36, 255, 0.437);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            font-size: 1em;
+            color: #ccc;
+        }
+
+        footer a {
+            color: #ff6f61;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .cta a {
+            text-decoration: none;
+            font-size: 1.5em;
+            color: #fff;
+            padding: 10px 20px;
+            background: #ff6f61;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .cta a:hover {
+            background: #ff867c;
+        }
+        
+        .navbar {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .projects {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .project-card {
+            margin-bottom: 30px;
+            padding: 30px;
+            background-color: #cec3f6;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            box-shadow: 0 8px 16px rgba(193, 36, 255, 0.437);
+        }
+
+        .project-card h4 {
+            font-size: 24px;
+            color: #1367a7;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .project-card p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 3em;
+            }
+
+            header p {
+                font-size: 1.2em;
+            }
+
+            ul li {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Introduction</h2>
+            <p>Hello! I'm karthi, a creative and driven individual passionate about Full-stack and CyberSecurity. I aim to excel in everything I do, pushing boundaries and embracing challenges.</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul class="ul">
+                <li>Web Development</li>
+                <li>Ethical Hacking</li>
+                <li>Creative Problem Solving</li>
+                <li>Python</li>
+                <li>Sql</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
+            <p>Beyond work, I find joy in Football,Minimiltra. These activities keep me inspired and energized.</p>
+        </section>
+        <section>
+            <h2>Project</h2>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h4>E-Commerce</h4>
+                    <p>This website is a simple e-commerce website that allows users to browse and purchase products.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h4>Portfolio</h4>
+                    <p>This website is used for my own purpose.To show others what i done and my skill</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h4>Password Strong checker</h4>
+                    <p>This is build by using python.It is used to check the password and it also sugest the strong password</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="cta">
+            <h2>Contact Me</h2>
+            <p>Have questions or want to connect? Reach out today!</p>
+            <a href="mailto:your.karthikeyananandan307@gmail.com">Email Me</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Created By Karthi</p>
+    </footer>
+</body>
+</html>
